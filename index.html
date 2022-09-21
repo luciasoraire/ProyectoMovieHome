@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lucia Soraire" />
+    <meta name="description" content="MovieHome" />
+    <meta name="keywords" content="plataforma de streaming" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>MovieHome</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+        <div class="container-fluid " >
+          <div>
+            <a class="navbar-brand" href="#">
+              <img src="/img/MovieHome/LogoMovieHome.png" alt="Logo MovieHome" width="200" height="me-auto">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto ms-lg-auto mb-auto mb-lg-0 p-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorías
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="pages/Suspenso.html">Suspenso</a></li>
+                  <li><a class="dropdown-item" href="pages/Terror.html">Terror</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Usuario
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalAcceso">Acceso</a></li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalConsulta">Contacto</a>
+                  </li>
+                  
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="pages/Registro.html">Suscripción</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/Nosotros.html">Nosotros</a>
+              </li>
+              
+            </ul>
+            <nav>
+              <div class="container-fluid">
+                
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-light type="submit">Buscar</button>
+                </form>
+              </div>
+            </nav>
+           
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+    
+      <div class="">
+
+        <section class="video">
+          <div class="top"></div>
+            <div class="bottom"></div>
+
+           <video src="/img/Trailer The Following.mp4" autoplay unmuted loop></video>
+           
+
+          <div class="content">
+            
+            <section class="left">
+             
+             <h2 class="tituloVideo">The Following</h2>
+             <p class="descripcion">            El asesino en serie Joe Carroll es un psicópata extremadamente
+               peligroso capaz de conseguir generar un culto enfermizo en torno a
+               su persona. Ahora ha conseguido escapar de prisión con la
+               determinación de terminar su "obra". El antiguo agente del FBI Ryan
+               Hardy, que encarceló a Carroll hace 9 años, parece ser la persona
+               idónea para poder volver a atraparlo, ya que le conoce mejor que a
+               nadie. Él y su nuevo equipo emprenden la búsqueda y captura de
+               Carroll, pero no saben que su objetivo está comunicándose con otros
+               asesinos en serie para generar una telaraña de asesinatos y asesinos
+               en serie que será muy difícil de desentrañar, incluso para Hardy.</p>
+               
+
+                <div class="d-flex mt-2">
+                 
+                 
+                  <button class="btn btn-secondary m-2 botonrep" > <i class="bi bi-play-fill" style="padding: 0%;"></i> Reproducir</button>
+                  <button class="btn btn-secondary m-2 botonrep"><i class="bi bi-info-circle" style=" padding: 0%;"></i> Más información</button>
+                </div>
+              
+            </section>
+
+           
+        </div>
+        
+          
+         </section>
+        
+     </div>
+      <div class="titulo">
+      <h1>Sugerencias</h1>
+    </div>
+    <section class="containerCards">
+      <div class="card">
+        <div class="cara frontal">
+          <img src="/img/Suspenso/CangrejoNegro.jpg" alt="CangrejoNegro">
+          
+        </div>
+        <div class="cara trasera">
+          <h4>Cangrejo Negro</h4>
+          <p>Para poner fin a una guerra apocalíptica y salvar a su
+            hija, una soldado emprende una misión desesperada:
+            transportar un cargamento ultrasecreto por un mar helado.</p>
+            <div class="link">
+              <a class="categ" href="pages/CangrejoNegro.html">Ver</a>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cara frontal">
+          <img src="/img/Suspenso/ElPianista.jpg" alt="El Pianista">
+          
+        </div>
+        <div class="cara trasera">
+          <h4>El Pianista</h4>
+          <p>El régimen nazi ha invadido el país. Así Szpilman y toda su
+            familia se ven obligados a dejar su casa y todo lo que les
+            pertenece para trasladarse con miles de personas de origen
+            judío al ghetto de Varsovia. Mientras Wladyslaw trabaja como
+            pianista en un restaurante propiedad de un judío que
+            colabora con los nazis, su hermano Henryk prefiere luchar
+            contra los nazis. Pero tres años más tarde, los habitantes
+            del ghetto son trasladados en trenes hacia campos de
+            concentración.</p>
+            <div class="link">
+              <a class="categ" href="#">Ver</a>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cara frontal">
+          <img src="/img/Suspenso/BlackMirror.jpg" alt="Black Mirror">
+          
+        </div>
+        <div class="cara trasera">
+          <h4>Black Mirror</h4>
+          <p>Black Mirror es una serie de televisión británica creada
+            por Charlie Brooker que muestra el lado oscuro de la vida
+            y la tecnología. La serie es producida por Zeppotron para
+            Endemol. En cuanto al contenido del programa y la
+            estructura, Brooker ha señalado que "cada episodio tiene
+            un tono diferente, un entorno diferente, incluso una
+            realidad diferente, pero todos son acerca de la forma en
+            que vivimos ahora - y la forma en que podríamos estar
+            viviendo en 10 minutos si somos torpes".</p>
+            <div class="link">
+              <a class="categ" href="pages/BlackMirror.html">Ver</a>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cara frontal">
+          <img src="/img/Suspenso/Memory.jpg" alt="Memory">
+          
+        </div>
+        <div class="cara trasera">
+          <h4>Memory</h4>
+          <p>Alex, un asesino a sueldo, descubre que se ha convertido en
+            un objetivo después de que se niega a completar un trabajo
+            para una peligrosa organización criminal. Con el sindicato
+            del crimen y el FBI persiguiéndolo, Alex tiene las
+            habilidades para mantenerse a la vanguardia, excepto por una
+            cosa: está luchando con una pérdida de memoria severa que
+            afecta todos sus movimientos. Alex debe cuestionar cada una
+            de sus acciones y en quién puede confiar en última
+            instancia.</p>
+            <div class="link">
+              <a class="categ" href="#">Ver</a>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cara frontal">
+          <img src="/img/Suspenso/NoRespires2.jpg" alt="No Respires 2">
+          <h4>Black Mirror</h4>
+        </div>
+        <div class="cara trasera">
+          <h4>No Respires 2</h4>
+          <p>El ciego se ha estado escondiendo durante años en una cabaña
+            aislada y ha acogido y criado a una niña que perdió a sus
+            padres en un incendio en una casa. Su tranquila existencia
+            se hace añicos cuando un grupo de secuestradores aparece y
+            se lleva a la niña, lo que obliga al Ciego a dejar su
+            refugio seguro para rescatarla.</p>
+            <div class="link">
+              <a class="categ" href="#">Ver</a>
+            </div>
+        </div>
+      </div>
+    </section>
+    <div class="titulo">
+      <h1>Categorías</h1>
+    </div>
+    <section class="containerCards">
+      <div class="card">
+        <div class="cara frontal">
+          <img src="/img/Suspenso/Freaks.jpg" alt="Freaks">
+          
+        </div>
+        
+        <div class="cara trasera">
+          <a class="categ" href="pages/Suspenso.html"><h3 >Suspenso</h3></a>
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="cara frontal">
+          <img src="/img/Terror/TerapiaDelMiedo.jpg" alt="Terapia Del Miedo">
+          
+        </div>
+        
+        <div class="cara trasera">
+          <a class="categ" href="pages/Terror.html"><h3 >Terror</h3></a>
+          
+        </div>
+      </div><div class="card">
+        <div class="cara frontal">
+          <img src="/img/Romance/EntreLaVidaYLaMuerte.jpg" alt="Entre La Vida y La Muerte">
+          
+        </div>
+        
+        <div class="cara trasera">
+          <a class="categ" href=""><h3 >Romance</h3></a>
+          
+        </div>
+      </div><div class="card">
+        <div class="cara frontal">
+          <img src="/img/Drama/ElVengador.jpg" alt="El Vengador">
+          
+        </div>
+        
+        <div class="cara trasera">
+          <a class="categ" href=""><h3 >Drama</h3></a>
+          
+        </div>
+      </div><div class="card">
+        <div class="cara frontal">
+          <img src="/img/Comedia/Granizo.jpg" alt="Granizo">
+          
+        </div>
+        
+        <div class="cara trasera">
+          <a class="categ" href=""><h3 >Comedia</h3></a>
+          
+        </div>
+      </div>
+    </section>
+    <div class="modal fade" id="modalAcceso" tabindex="-1" aria-labelledby="modalAccesoLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title col-sm-12 text-center" id="modalAccesoLabel" >Iniciar sesión</h4>
+            
+          </div>
+          <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="usuario" class="form-label">Usuario</label>
+                  <input type="text" id="usuario" placeholder="luciasoraire" maxlength="50" minlength="6" required class="form-control" aria-describedby="usuario">
+                  
+                </div>
+                <div class="mb-3">
+                  <label for="contraseña" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="contraseña" placeholder="*********" maxlength="15" minlength="7" required>
+                </div>
+                <div class="m-4 d-flex justify-content-center align-items-center">
+                <button type="submit" class="botonSubmit ">Ingresar</button>
+                <button type="button" class="botonSubmit" data-bs-dismiss="modal" aria-label="Close">Cerrar</button>
+              </div>
+              </form>
+              
+          </div>
+          
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalConsulta" tabindex="-1" aria-labelledby="modalAccesoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title col-sm-12 text-center" id="modalAccesoLabel" >Contacto</h4>
+              
+            </div>
+            <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="apellidoNombre" class="form-label">Apellido y Nombre</label>
+                    <input type="text" id="apellidoNombre" placeholder="Lucía Soraire" maxlength="50" minlength="6" required class="form-control" aria-describedby="apellidoNombre">
+                    
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" id="email" placeholder="luciasoraire@gmail.com" maxlength="50" minlength="6" required class="form-control" aria-describedby="email">
+                    
+                  </div>
+                  <div class="mb-3">
+                    <label for="consulta" class="form-label">Consulta</label>
+                    <textarea name="" class="form-control" id="consulta" rows="4" placeholder="¡Hola! ¿En qué te podemos ayudar?" maxlength="15" minlength="7" required></textarea>
+                  </div>
+                  <div class="m-4 d-flex justify-content-center align-items-center">
+                  <button type="submit" class="botonSubmit "  >Ingresar</button>
+                  <button type="button" class="botonSubmit" data-bs-dismiss="modal" aria-label="Close">Cerrar</button>
+                </div>
+                </form>
+                
+            </div>
+            
+            </div>
+          </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+      <footer class="text-center text-white" style="background-color:#000000">
+
+        <div class="container p-4 pb-0">
+
+          <section class="mb-4">
+            <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+              
+             
+              
+            
+              
+
+              <a href="pages/Error404.html"><label class="btn btn-outline-light" for="btncheck1"><i class="bi bi-twitter"></i> Twitter</label></a>
+              
+              
+              <a href="pages/Error404.html"><label class="btn btn-outline-light" for="btncheck1"><i class="bi bi-instagram"></i> Instagram</label></a>
+              
+              <a href="https://github.com/luciasoraire"><label class="btn btn-outline-light" for="btncheck3"><i class="bi bi-github"></i> GitHub</label></a>
+            </div>
+
+            
+
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white" href="https://proyectomoviehomeluciasoraire/">moviehome.com</a>
+        </div>
+
+      </footer>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>
